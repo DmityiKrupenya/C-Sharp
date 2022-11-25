@@ -1,31 +1,16 @@
-﻿// Напишите программу которая будет выдавать дни недели при вводе числа
-Console.WriteLine("Введите номер дня недели:");
+﻿// // Нап прог, которая на вход принимает 2 числа и проверяет является ли 1 число квадратом второго
+// а = 25,b = 5 ->да
+// a = 2, b = 10 ->нет 
+
+Console.WriteLine("Введите 1 число:");
 int a = Convert.ToInt32(Console.ReadLine());
-if(a == 1)
+Console.WriteLine("Введите 2 число:");
+int b = Convert.ToInt32(Console.ReadLine());
+if (Convert.ToInt32(Math.Sqrt(a))==b)
 {
-    Console.WriteLine("Понедельник");
+    Console.WriteLine("Yes");
 }
-if(a == 2)
+else
 {
-    Console.WriteLine("Вторник");
-}
-if(a == 3)
-{
-    Console.WriteLine("Среда");
-}
-if(a == 4)
-{
-    Console.WriteLine("Четверг");
-}
-if(a == 5)
-{
-    Console.WriteLine("Пятница");
-}
-if(a == 6)
-{
-    Console.WriteLine("Суббота");
-}
-if(a == 7)
-{
-    Console.WriteLine("Воскресенье");
+    Console.WriteLine("No");
 }

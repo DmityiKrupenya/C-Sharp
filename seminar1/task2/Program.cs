@@ -10,7 +10,7 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if (a<b)
 {
-    Console.WriteLine("max =" + b);
+    Console.WriteLine("max =" + b); 
     Console.WriteLine("min =" + a); 
 }
 else 

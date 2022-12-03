@@ -12,4 +12,4 @@ int num1 = a / 100;
 Console.WriteLine(num1);
 Console.WriteLine(num3);
 
-Console.WriteLine($"Искомое число = {num1 * 10 + num3}");
+Console.WriteLine($"Искомое число = {num1 * 10 + num3}");   

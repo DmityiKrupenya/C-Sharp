@@ -9,14 +9,15 @@
 
 Console.Write("Введи число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-string numberText = Convert.ToString(number);
-if (numberText.Length > 2)// 
+while (number > 999)
 {
-  Console.WriteLine("третья цифра -> " + numberText[2]);
+number = number / 10;
 }
-else 
+int num3 = number % 10;
+if(num3 <= 0)
 {
-  Console.WriteLine("-> третьей цифры нет");
+  Console.WriteLine(num3);
 }
-
-
+else{
+  Console.WriteLine("Нет третьей цифры");
+}

@@ -21,7 +21,7 @@ void FillArrayRandomNumbers(int[] numbers) // метод заполнения м
 {
     for(int i = 0; i < numbers.Length; i++)
     {
-        numbers[i] = new Next(100,1000); 
+        numbers[i] = new Random().Next(100,1000); 
     }
 }
 void PrintArray(int[] numbers) // метод вывода массива в консоль

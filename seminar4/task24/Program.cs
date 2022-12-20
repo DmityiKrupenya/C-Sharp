@@ -25,7 +25,7 @@ int Sum1ToA(int A)
     for (int i = 1; i <= A; i++)
     {
 
-        sum += 1;  //sum = sum + 1;
+        sum++;  //sum = sum + 1;
     }
     return sum;
 }

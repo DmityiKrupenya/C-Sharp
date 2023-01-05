@@ -44,9 +44,9 @@ int EnterNum(string input)
 
 void CreArr(int[,] arr)
 {
-  for (int i = 0; i < arr.GetLength(0); i++)
+  for (int i = 0; i < arr.GetLength(0); i++) // i - индекс строки 
   {
-    for (int j = 0; j < arr.GetLength(1); j++)
+    for (int j = 0; j < arr.GetLength(1); j++) // j - индекс столбца
     {
       arr[i, j] = new Random().Next(ran);
     }

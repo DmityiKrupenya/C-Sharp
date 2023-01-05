@@ -24,7 +24,7 @@ WriteArr(matrixResult);
 
 void MultiplyMatrix(int[,] matrix1, int[,] matrix2, int[,] matrixResult)// Метод произведения 2 матриц
 {
-  for (int i = 0; i < matrixResult.GetLength(0); i++)
+  for (int i = 0; i < matrixResult.GetLength(0); i++)// но что то в нем не работает, Скопировал его с github
   {
     for (int j = 0; j < matrixResult.GetLength(1); j++)
     {
